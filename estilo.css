@@ -1,0 +1,300 @@
+* {
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	body {
+		font-family: Helvetica, "Trebuchet MS", sans-serif;
+		background: #fff;
+	}
+
+	#container {
+		margin: 15px auto;
+		width: 1200px; 
+
+	}
+
+	  body.home #navegacao li#home,
+	  body.entretenimento #navegacao li#entretenimento,
+	  body.internacional #navegacao  li#internacional,
+	  body.sobre #navegacao li#sobre,
+	  body.saude #navegacao  li#saude {
+	  	background: #fff;
+	  	cursor: text;
+	  }
+
+/*/********topo*/
+
+	header {
+		/*border: 1px solid red;*/
+		background: #000;
+		width: 100%;
+		height: 250px;
+		margin-top: 15px;
+		margin: 0 auto;
+		
+	}
+
+	#logo {
+		margin-top: 15px;
+		background: #000;
+		color: #fff;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1.5em;
+
+	}
+
+	#logo h1 {
+		margin-top: 15px;
+		padding-top: 15px;	
+	}
+
+
+	#menu-topo {
+		position: relative;
+		bottom: -70px;
+		width: 650px;
+		color: #fff;
+		border-top: 1px solid #d0797c;
+		border-bottom: 1px solid #d0797c;
+		margin: 0 auto;
+	}
+
+	ul {
+		margin: 0;
+		list-style: none;
+	}
+
+	#menu-topo ul li {
+		padding: 15px;
+		float: left;
+		color: #d0797c;
+	}
+
+	#menu-topo ul a {
+		display: block;
+		text-decoration: none;
+		color: #d0797c;
+	}
+
+	#menu-topo li:hover {
+		text-decoration: none;
+		background: #fff;
+		color: #d0797c;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+	#conteudo-corpo {
+		width: 700px;
+		margin-top: 15px;
+		margin-left: 15px;
+		padding: 10px 0;
+		border-top: 2px solid #d0797c;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		float: left;
+		text-align: center;
+		text-transform: uppercase;
+		
+	}
+
+	#conteudo-corpo h2 {
+		padding: 15px 0;
+		margin: 10px 0;
+	}
+
+	.pub-preview {
+		/*border: 1px solid red;*/
+		border-top: 2px solid #d0797c;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		width: 300px;
+		height: 450px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		float: left;
+		margin: 15px 15px;
+		padding: 5px 5px 0 5px;
+	}
+
+	.pub-preview h4 {
+		margin: 10px 0;
+		padding: 5px 0;
+		font-size: 1em;
+
+	}
+
+	.pub-preview p {
+		margin: 10px 0;
+		padding: 10px 0;
+		text-align: justify;
+	}
+
+	.pub-preview a {
+		margin-top: 10px;
+		padding: 5px 5px;
+		background: #000;
+		color: #d0797c;
+		text-transform: capitalize;
+		text-align: left;
+	}
+
+	.pub-preview a:hover {
+		margin: 10px 5px;
+		padding: 5px 5px;
+		background: #d0797c;
+		color: #fff;
+	}
+
+	.pub-preview img {
+		-webkit-border-radius: 10px;
+	}
+
+	time {
+		margin-bottom: 3px;
+	}
+
+	#navegue {
+		border-top: 2px solid #d0797c;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		width: 450px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-right: 15px;
+		padding: 10px 0;
+		float: right;
+		text-align: center;
+		text-transform: uppercase;
+		
+	}
+
+	#navegue h2 {
+		padding: 15px 0;
+		margin: 10px 0;
+	}
+
+	nav.lateral {
+		border-top: 2px solid #d0797c;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		margin: 15px 15px;
+		padding: 10px 0;
+	}
+
+	nav#lateral ul li {
+		margin: 10px 0;
+		padding: 10px 0;
+		background-color: #000;
+	}
+
+	nav#lateral h3 {
+		margin-bottom: 15px;
+		padding: 5px 5px;
+		text-transform: uppercase;
+	}
+
+	nav#lateral ul li a{
+		text-decoration: none;
+		color: #fff;
+	}
+
+	nav#lateral ul li a:hover {
+		color: #000;
+	}
+
+	#menu li:hover {
+		background-color: #d0797c;
+	}
+
+	#newsletter {
+		border-top: 2px solid #d0797c;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		margin-top: 15px;
+		padding: 10px 0;
+	}
+
+	#newsletter h3 {
+		margin: 15px 0;
+
+	}
+
+	label {
+  		display: block;
+  		cursor: pointer;
+	}
+
+	input {
+	  padding: 5px;
+	  width: 200px;
+	  font-size: 0.9em;
+	  background: #fff;
+	}
+
+	input.submit {
+	  width: 80px;
+	  color: #000;
+	  background-color: #d0797c;
+	  border: 2px solid #000;
+	  padding: 5px;
+	}
+
+ 
+/*******************Rodape*/
+
+  footer {
+  	display: block;
+  	width: auto;
+  	min-width: 100%;
+	clear: both;
+	padding: 16px;
+	background: #d0797c;
+	color: #000;
+	text-align: center;
+  	}
+
+/********** página sobre*/
+
+ 	#perfil-foto {
+		margin: 15px;
+		float: right;
+ 	}
+
+	#perfil-foto img {
+		border-radius: 180px;
+	}
+
+	#pag-sobre {
+		width: 700px;
+		padding: 10px 0;
+		margin-top: 15px;
+		margin-left: 15px;
+		float: left;
+		text-align: center;
+		text-transform: uppercase;
+		border-top: 2px solid #d0797c;
+		/*border-bottom: 2px solid #d0797c;*/
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+	}
+
+	#pag-sobre h2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		color: #000;
+	}
+
+	#pag-sobre p {
+		margin: 15px 15px;
+		padding: 5px 5px;
+		text-align: justify;
+	}
